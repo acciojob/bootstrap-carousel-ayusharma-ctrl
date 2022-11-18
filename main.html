@@ -8,32 +8,32 @@
 </head>
 
 <body>
-	<div id="myCarousel" class="myCarousel" data-ride="carousel">
+	<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
 		<div class="slide">
 		  <div class="first-slide">
-			<img class="d-block w-100" src=".../800x400?auto=yes&bg=777&fg=555&text=First slide" alt="First slide">
+			<img src="..." class="d-block w-100" alt="...">
 		  </div>
 		  <div class="second-slide">
-			<img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
+			<img src="..." class="d-block w-100" alt="...">
 		  </div>
 		  <div class="third-slide active">
-			<img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+			<img src="..." class="d-block w-100" alt="...">
 		  </div>
 		  <div class="fourth-slide">
-			<img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+			<img src="..." class="d-block w-100" alt="...">
 		  </div>
 		  <div class="fifth-slide">
-			<img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+			<img src="..." class="d-block w-100" alt="...">
 		  </div>
 		</div>
-		<a class="glyphicon-chevron-left" href="#carouselExampleControls" role="button" data-slide="prev">
-		  <span class="carousel-control" aria-hidden="true"></span>glyphicon-chevron-left
-		  <span class="left">Previous</span>
-		</a>
-		<a class="carousel-control" href="#carouselExampleControls" role="button" data-slide="next">
+		<button class="left" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+		  <span class="glyphicon-chevron-left" aria-hidden="true"></span>
+		  <span class="visually-hidden">Previous</span>
+		</button>
+		<button class="right" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
 		  <span class="glyphicon-chevron-right" aria-hidden="true"></span>
-		  <span class="right">Next</span>
-		</a>
+		  <span class="visually-hidden">Next</span>
+		</button>
 	  </div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
